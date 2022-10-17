@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicologia Crescer | Contato</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <a href="../index.html"><img src="../img/header-icon.PNG" alt="header logo" width="250px"></a>
+            <!-- <img src="./img/brain-icon.png" alt="Brain Icon" class="header-img"> -->
+            <nav class="menu">
+                <a href="../index.html" class="menu-itens">Home</a>
+                <a href="service.html" class="menu-itens">Serviços</a>
+                <a href="contact.html" class="menu-itens">Contato</a>
+            </nav>
+        </header>
+        <main id="main-container">
+            <div id="main-title">
+                <h1 class="main-title">Contate-nos abaixo!</h1>
+            </div>
+                <form class="form">
+                    <!-- <div class="forms"> -->
+                        <label for="name" class="label-form">Digite seu nome: </label>
+                        <input type="text" id="name" placeholder="Nome completo" required class="form-database"> <br>
+                        
+                        <label for="email" class="label-form">Digite seu e-mail: </label>
+                        <input type="email" name="email" id="email" placeholder="email@gmail.com" required class="form-database"> <br>
+                                
+                        <label for="tel" class="label-form">Digite um número de telefone: </label>
+                        <input type="tel" name="tel" id="tel" placeholder="(61) 99999-9999" required class="form-database"> <br> 
+                                    
+                        <label for="options" class="label-form">Selecione aqui o serviço desejado: </label>
+                            <select name="service" id="services" class="form-select">
+                                <option value="option" class="form-select-option">-- Selecione uma opção --</option>
+                                <option value="couple-therapy" class="form-select-option">Terapia para Casal</option>
+                                <option value="family-therapy" class="form-select-option">Terapia Familiar</option>
+                                <option value="child-therapy" class="form-select-option">Terapia Infantil</option>
+                                <option value="therapy" class="form-select-option">Terapia Individual</option>
+                            </select> <br> <br>
+
+                        <label for="range" class="label-form">Defina sua urgência: </label>
+                        <input type="range" name="range" id="range" required class="form-range"> <br> <br>
+                        
+                    <div id="btn-form">
+                        <input type="submit" value="Enviar" class="btn-form" onclick="enviaRelatorio()"> 
+                        <input type="reset" value="Apagar" class="btn-form">
+                    </div>
+                    <!-- </div> -->
+                </form>
+            <div class="social-medias">
+                <!-- <h1 class="social-media-title">Também entre em contato através das nossas redes sociais!</h1> -->
+                <a href="https://pt-br.facebook.com/" target="_blank"> <img src="../img/facebook-icon.png" alt="Facebook Icon" class="social-media-img"></a>
+                <a href="https://instagram.com" target="_blank"> <img src="../img/instagram-icon.png" alt="Instagram Icon" class="social-media-img"></a>
+                <a href="https://twitter.com/" target="_blank"> <img src="../img/twitter-icon.png" alt="Twitter Icon" class="social-media-img"></a>
+                <!-- <a href="https://web.whatsapp.com/" target="_blank"> <img src="../img/whatsapp-icon.png" alt="WhatsApp Icon" class="social-media-img"></a> -->
+            </div>
+        </main>
+    </div>
+</body>
+</html>

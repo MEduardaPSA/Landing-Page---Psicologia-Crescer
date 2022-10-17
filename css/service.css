@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+/* Estilizando o container */
+#container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 15px;
+}
+
+/* Estilizando o cabeçalho */
+.header{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: #4672AD;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Estilizando imagem do cabeçalho */
+.header-img{
+    width: 60px;
+    height: auto;
+}
+
+/* Estilizando links */
+.menu-itens{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: 1s;
+}
+
+/* Adicionando animação nos links */
+.menu-itens:hover{
+    border-bottom: 2px solid white;
+}
+
+/* Estilizando o Título */
+#main-title{
+    padding: 20px;
+    text-align: center;
+}
+.main-title{
+    color: #4672AD;
+    text-shadow: 2px 2px 10px #4672AD;
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+/* Estilizando a Lista de Serviços */
+.list{
+    padding: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.itens-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid #4672AD;
+    box-shadow: 1px 1px 5px #4672AD;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.itens-list:hover{
+    box-shadow: 5px 5px 10px #4672AD;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.list-title{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #4672AD;
+    text-shadow: 5px 5px 9px #4672AD;
+}
+.list-paragraph{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    padding-bottom: 90px;
+    text-align: left;
+}
