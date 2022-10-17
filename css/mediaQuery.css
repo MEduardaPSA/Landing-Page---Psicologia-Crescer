@@ -182,3 +182,35 @@
         font-size: 17px;
     }
 }
+@media (max-width: 365px) and (min-width: 285px){
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    #main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-title{
+        padding-top: 5px;
+    }
+    .first-title{
+        text-align: center;
+        font-size: 22px;
+    }
+    .border{
+        display: flex;
+        margin: auto;
+        padding: 0px;
+    }
+    .border-content{
+        width: 250px;
+        height: 390px;
+    }
+    .border-title{
+        font-size: 20px;
+    }
+    .border-paragraph{
+        font-size: 14px;
+    }
+}
