@@ -131,3 +131,10 @@ body{
     width: 35px;
     height: auto;
 }
+.footer-content{
+    padding-top: 130px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4672AD;
+}

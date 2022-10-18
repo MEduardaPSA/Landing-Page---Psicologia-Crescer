@@ -103,5 +103,11 @@ body{
     font-weight: 600;
     color: #4672AD;
 }
-
+.footer-content{
+    padding-top: 85px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4672AD;
+}
 
